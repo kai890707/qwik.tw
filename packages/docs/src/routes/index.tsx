@@ -61,7 +61,7 @@ export const onRequest: RequestHandler<BuilderContent> = async ({ url }) => {
   const response = await fetch(qwikUrl.href);
   if (response.ok) {
     const content: BuilderContent = JSON.parse(await response.text());
-    return content;
+    return content; 
   }
   throw new Error('Unable to load Builder content');
 };
@@ -71,5 +71,5 @@ interface BuilderContent {
 }
 
 export const head: DocumentHead = {
-  title: 'Framework reimagined for the edge!',
+  title: '重新構想最新潮的框架!',
 };

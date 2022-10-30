@@ -43,7 +43,7 @@ export const Header = component$(() => {
         <ul className="md:grow md:flex md:justify-end md:p-4 menu-toolkit">
           <li>
             <a href="/docs/overview/" class={{ active: pathname.startsWith('/docs') }}>
-              <span>Docs</span>
+              <span>文件</span>
             </a>
           </li>
           <li>
@@ -53,7 +53,7 @@ export const Header = component$(() => {
           </li>
           <li>
             <a href="/media/" class={{ active: pathname.startsWith('/media') }}>
-              <span>Media</span>
+              <span>影音</span>
             </a>
           </li>
           <li>
@@ -61,7 +61,7 @@ export const Header = component$(() => {
               href="/examples/introduction/hello-world/"
               class={{ active: pathname.startsWith('/examples') }}
             >
-              <span>Examples</span>
+              <span>範例</span>
             </a>
           </li>
           <li>
@@ -69,12 +69,12 @@ export const Header = component$(() => {
               href="/tutorial/welcome/overview/"
               class={{ active: pathname.startsWith('/tutorial') }}
             >
-              <span>Tutorial</span>
+              <span>教學</span>
             </a>
           </li>
           <li>
             <a href="/playground/" class={{ active: pathname.startsWith('/playground') }}>
-              <span>Playground</span>
+              <span>線上體驗</span>
             </a>
           </li>
           <li>

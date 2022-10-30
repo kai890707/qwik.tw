@@ -40,7 +40,7 @@ export const Footer = component$(() => {
           </li>
         </ul>
       </div>
-      <div class="footer-bottom">© 2022 Builder.io, Inc.</div>
+      <div class="footer-bottom">© 2022 Builder.io, Inc.  | 國立高雄師範大學軟體工程與管理學系 SDPM 實驗室譯製。</div>
     </footer>
   );
 });

@@ -12,8 +12,8 @@ type ErrorScreenProps = {
 
 export const ErrorScreen = component$(({ translations = {} }: ErrorScreenProps) => {
   const {
-    titleText = 'Unable to fetch results',
-    helpText = 'You might want to check your network connection.',
+    titleText = '無法取得結果',
+    helpText = '或許可以檢查一下你的網路是否有連接',
   } = translations;
   return (
     <div className="DocSearch-ErrorScreen">

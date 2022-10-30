@@ -1,19 +1,19 @@
 # Guide
 
-## Guides
+## 學習指南
 
-- [Overview](overview/index.mdx)
-- [Getting Started](getting-started/index.mdx)
+- [概述](overview/index.mdx)
+- [入門](getting-started/index.mdx)
 - [Think Qwik](think-qwik/index.mdx)
-- [FAQ](faq/index.mdx)
-- [Routing (QwikCity)](../qwikcity/overview/index.mdx)
+- [常見問題](faq/index.mdx)
+- [路由 (QwikCity)](../qwikcity/overview/index.mdx)
 
 ## Component API
 
-- [Overview](components/overview/index.mdx)
-- [State](components/state/index.mdx)
-- [Events](components/events/index.mdx)
-- [Lifecycle](components/lifecycle/index.mdx)
+- [概述](components/overview/index.mdx)
+- [狀態](components/state/index.mdx)
+- [事件](components/events/index.mdx)
+- [生命週期](components/lifecycle/index.mdx)
 - [Context](components/context/index.mdx)
 - [Resource](components/resource/index.mdx)
 - [Lite components](components/lite-components/index.mdx)
@@ -23,15 +23,15 @@
 ## Cheat Sheet
 
 - [Qwik vs React](cheat/qwik-react/index.mdx)
-- [Serialization](cheat/serialization/index.mdx)
+- [序列化](cheat/serialization/index.mdx)
 
-## Concepts
+## 概念
 
 - [Resumable](concepts/resumable/index.mdx)
 - [Progressive](concepts/progressive/index.mdx)
 - [Reactive](concepts/reactivity/index.mdx)
 
-## Advanced
+## 進階
 
 - [Prefetching](advanced/prefetching/index.mdx)
 - [Containers](advanced/containers/index.mdx)
@@ -40,7 +40,7 @@
 - [Qwikloader](advanced/qwikloader/index.mdx)
 - [Custom Build Directory](advanced/custom-build-dir/index.mdx)
 
-## Community
+## 社群
 
 - [Github](https://github.com/BuilderIO/qwik)
 - [@QwikDev](https://twitter.com/QwikDev)

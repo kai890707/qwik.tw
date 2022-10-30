@@ -16,7 +16,7 @@ type NoResultsScreenProps = {
 };
 
 export const NoResultsScreen = component$((props: NoResultsScreenProps) => {
-  const { noResultsText = 'No results for', suggestedQueryText = 'Try searching for' } =
+  const { noResultsText = '找不到結果，關於', suggestedQueryText = '嘗試搜尋關於' } =
     props.translations ?? {};
   const searchSuggestions: string[] | undefined = props.state.context.searchSuggestions as string[];
   const context: any = useContext(SearchContext);

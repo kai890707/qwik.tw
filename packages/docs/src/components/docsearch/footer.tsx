@@ -38,12 +38,12 @@ export const CommandIcon = component$((props: CommandIconProps) => {
 
 export const Footer = component$(({ translations = {} }: FooterProps) => {
   const {
-    selectText = 'to select',
+    selectText = '選擇',
     selectKeyAriaLabel = 'Enter key',
-    navigateText = 'to navigate',
+    navigateText = '瀏覽',
     navigateUpKeyAriaLabel = 'Arrow up',
     navigateDownKeyAriaLabel = 'Arrow down',
-    closeText = 'to close',
+    closeText = '關閉',
     closeKeyAriaLabel = 'Escape key',
   } = translations;
 

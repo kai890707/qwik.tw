@@ -75,7 +75,7 @@ export const SearchBox = component$((props: SearchBoxProps) => {
           enterKeyHint={props.state.activeItemId ? 'go' : 'search'}
           spellCheck="false"
           autoFocus={props.autoFocus}
-          placeholder="Search docs"
+          placeholder="在文件中搜尋"
           type="search"
           ref={props.inputRef as any}
           onInput$={(event: Event) => {

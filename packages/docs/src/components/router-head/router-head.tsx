@@ -6,10 +6,10 @@ import { Vendor } from './vendor';
 export const RouterHead = component$(() => {
   const { href } = useLocation();
   const head = useDocumentHead();
-  const title = head.title ? `${head.title} - Qwik` : `Qwik - Framework reimagined for the edge`;
+  const title = head.title ? `${head.title} - Qwik` : `Qwik - 重新構想最新潮的框架!`;
   const description =
     head.meta.find((m) => m.name === 'description')?.content ||
-    `No hydration, auto lazy-loading, edge-optimized, and fun 🎉!`;
+    `去除水合化、自動緩載入、邊緣優化、樂趣無窮 🎉!`;
 
   return (
     <>

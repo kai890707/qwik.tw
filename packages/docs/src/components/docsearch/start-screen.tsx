@@ -21,12 +21,12 @@ type StartScreenProps = Pick<ScreenStateProps, 'state' | 'disableUserPersonaliza
 
 export const StartScreen = component$((props: StartScreenProps) => {
   const {
-    recentSearchesTitle = 'Recent',
-    noRecentSearchesText = 'No recent searches',
-    saveRecentSearchButtonTitle = 'Save this search',
-    removeRecentSearchButtonTitle = 'Remove this search from history',
-    favoriteSearchesTitle = 'Favorite',
-    removeFavoriteSearchButtonTitle = 'Remove this search from favorites',
+    recentSearchesTitle = '近期搜尋',
+    noRecentSearchesText = '尚無近期的搜尋結果',
+    saveRecentSearchButtonTitle = '保存此搜尋',
+    removeRecentSearchButtonTitle = '從歷史中移除此搜尋結果',
+    favoriteSearchesTitle = '典藏',
+    removeFavoriteSearchButtonTitle = '從典藏中移除此搜尋結果',
   } = props.translations ?? {};
   const context: any = useContext(SearchContext);
   const hasCollections = props.state.collections.some((collection) => collection.items.length > 0);
